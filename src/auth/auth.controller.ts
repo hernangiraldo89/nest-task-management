@@ -7,7 +7,7 @@ import { JwtResponse } from './models/jwt-response.interface';
 export class AuthController {
 
   constructor(
-    private authService: AuthService
+    private authService: AuthService,
   ) {}
 
   @Post('/signup')
